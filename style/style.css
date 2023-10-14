@@ -1,0 +1,439 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    font-family: "Inter", 'Times New Roman', Times, serif;
+    color: var(--text-color);
+} 
+:root{
+    font-size: 62.5%;
+    --text-color: #667085;
+    --text-color-black: #000000;
+    --main-color: #8E2424;
+}
+/* Estilização do header */
+
+.container{
+    display: grid;
+    grid-template-columns: 2fr 7fr 4fr;
+    grid-template-rows: 2.0rem;
+    grid-template-areas: "logo navbar btn";
+    background-color: #ffffff;
+    position: fixed;
+    
+    align-items: center;
+
+    padding: 2.0rem;
+
+    width: 100%;
+    border-bottom: 1px solid #6670851d;
+    box-shadow: inset;
+}
+.logo{
+    grid-area: logo;
+    margin-left: 40%;
+}
+.logo svg, div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+.logo svg{
+    width: 30px
+}
+.title{
+    margin-left: 1.0rem;
+    color: #3A404E;
+    font-weight: 600;
+}
+
+.navbar{
+    grid-area: navbar;
+    text-align: center;
+    margin-left: 3.0rem;
+    display: flex;
+    margin-right: 3.0rem;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3.0rem;;
+}
+
+
+a, nav ul li{
+    list-style: none;
+    text-decoration: none ;
+}
+.btns{
+    display: flex;
+    justify-content: end;
+    grid-area: btn;
+    
+    height: 4.0rem;
+    gap: 1.0rem;
+    margin-right: 6.0rem;
+}
+.btn {
+    height: 2.0rem;
+    border: 2px solid none;
+    border-radius: 7.5px;
+    height: 4.0rem;
+    padding: 1.8rem;
+    transition: ease 0.1s;
+}
+.btn:hover{
+    background: var(--main-color);
+    color: #ffffff;
+}
+#toggle{
+    display: none;
+}
+
+
+/* fim da estilização do header */
+
+/* estilização do primeira section */
+.contentOfSection1{
+    height: 40.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.4rem;
+}
+.sobre{
+    color: var(--main-color);
+    font-weight: 600;
+}
+.section1title{
+    font-size: 4.8rem;
+    font-weight: 600;
+    color: var(--text-color-black);
+    text-align: center;
+}
+.section1pgf{
+    font-size: 2.0rem;
+    width: 53.07%;
+    text-align: center;
+    padding: 1.2rem;
+}
+
+/*Estilização do secction 2 */
+
+
+.metricas{
+    display: grid;
+    grid-template: auto / repeat(4, auto);
+    grid-column-gap: 3.2rem;
+    width: 85%;
+    height: auto;
+    margin: auto;
+
+    align-items: start;
+}
+
+.metric{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.metric h2{
+    color: var(--main-color);
+    font-size: 6.0rem;
+    font-weight: 600;
+    align-items: center;
+    margin-bottom: 1.2rem;
+}
+.metric .metrictitle{
+    color: var(--text-color-black);
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+}
+
+/*Estilização do secction 2 */
+
+/* inicio da estilização do main vacancies */
+.vacancies{
+    height: auto;
+    width: 100%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    
+}
+.content span{
+    background-color: #8e24240d;
+    color: var(--main-color);
+    padding: 1.0rem;
+    border-radius: 2.0rem;
+    font-weight: 400;
+    margin-top: 9.6rem;
+}
+.content h3{
+    color: var(--text-color-black);
+    font-size: 3.6rem;
+    font-weight: 600;
+    margin-top: 1.6rem;
+    margin-bottom: 3.2rem;
+    text-align: center;
+}
+.content p{
+    font-size: 2.0rem;
+    margin-bottom: 6.0rem;
+    text-align: center;
+}
+.content img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.content-2{
+    width: 100%;
+}
+.vacanciesContainer, .vacancy{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.titleArea{
+    color: var(--text-color-black);
+    font-weight: 600;
+    font-size: 2.0rem;
+    margin-bottom: 3.0rem;
+    margin-top: 3.6rem;
+}
+.job-title{
+    color: var(--text-color-black);
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+.vacanciesContainer{
+    flex-shrink: 1;
+    width: 75.0rem;
+    height: auto;
+
+    margin-top: 3.6rem;
+    margin-bottom: 6.4rem;
+}
+.vacancy{
+    width: 100%;
+    height: 13.6rem;
+    border-radius: 16px;
+    border: 2px solid #EAECF0;
+    padding: 2.4rem;
+}
+.information span:first-child {
+    margin-right: 4.0rem;
+}
+.vacanciesContainer .vacancy{
+    margin-bottom: 2.4rem;
+}
+/* fim da estilização do main vacancies */
+
+/* Estilo do penúltimo conteiner   */
+.depositions{
+    width: 100%;
+}
+.penultContent{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    width: 121.6rem;
+    height: 40.4rem;
+    padding: 6.4rem;
+    margin-bottom: 9.6rem;
+    background: rgba(195, 25, 25, 0.03);
+    border-radius: 1.5rem;
+}
+.penultContent span:first-child{
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin-bottom: 1.6rem;
+}
+.titleComun{
+    color: var(--text-color-black);
+    font-size: 3.6rem;
+    font-weight: 600;
+    margin-bottom: 3.2rem;
+    text-align: center;
+}
+.penultContent img{
+    width: 5.6rem;
+    height: 5.6rem;
+    border-radius: 50%;
+    margin-bottom: 1.6rem;
+    background: linear-gradient(to bottom, #669999 0%, #336699 100%);
+}
+.titledev{
+    color: var(--text-color-black);
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+/* Fim do estilo do penúltimo conteiner   */
+/* Estilização do footer  */
+.footerContent{
+    display: flex;
+    flex-direction: column;
+    max-width: 83.2rem;
+    width: 100%;
+    margin: auto;
+    margin-top: 9.6rem;
+    margin-bottom: 9.6rem;
+}
+form{
+    max-width: 36.0rem;;
+    margin-top: 3.0rem;
+    margin-bottom: 3.0rem;
+}
+input{
+    width: 100%;
+    width: 36.0rem;
+    height: 4.0rem;
+    padding: 1.2rem;
+    border: 1px solid var(--text-color);
+    border-radius: 0.5rem;
+}
+.btnFooter {
+    background-color: var(--main-color);
+    height: 2.0rem;
+    border-radius: 7.5px;
+    border: 2px solid none;
+    height: 4.0rem;
+    padding: 1.8rem;
+    margin-left: 1.6rem;
+    color: #ffffff;
+}
+.footerContent span{
+    font-size: 2.0rem;
+    text-align: center;
+}
+
+
+/* fim da estilização do footer  */
+
+
+#menu > nav{
+    display: none;
+}
+
+@media screen and (max-width: 870px) {
+header{
+    position: relative;
+}
+.container{
+    grid-template-columns: 2fr 7fr 4fr 2fr;
+    grid-template-areas: "logo navbar btn toggle";
+}
+.navbar{
+    display: none;
+}   
+.btns{
+    display: none;
+}
+
+#toggle{
+    display: flex;
+}
+button{
+    grid-area: toggle;
+    display: flex;
+    border: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0.4rem;
+    
+
+    background-color: #ffffff;
+}
+button span{
+    width: 2.5rem;
+    height: 0.4rem;
+    border-radius: 0.5rem;
+    background-color: var(--main-color);   
+    transition: all 0.5s;
+}
+button.active span:nth-child(2){
+    width: 0;
+    opacity: 0;
+}
+button.active span:nth-child(1){
+    transform: rotate(-45deg) translate(-0.55rem, 0.55rem); 
+}
+button.active span:nth-child(3){
+    transform: rotate(45deg) translate(-0.56rem, -0.55rem); 
+}
+@keyframes anim {
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+.menuFloat {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: end;
+
+    text-align: end;
+    visibility: visible;
+    position:fixed;
+    width: 0%;
+    height: 100%;
+    right: 0;
+    top: 6.0rem;
+    background-color: var(--main-color);
+    padding-right: 2.0rem;
+    padding-top: 2.0rem;
+
+    animation: anim 0.2s linear normal forwards;
+}
+.menuFloat > nav{
+    flex-direction: column;
+    width: 20%;
+    gap: 20px;
+    color: #ffffff;
+}
+.nav-i, a{
+
+    color: #ffffff;
+}
+
+.metricas{
+    grid-template: repeat(4, auto) / auto;
+    margin-top: 5.0rem;
+    gap: 3.0rem;
+}
+.metric{
+    align-items: center;
+    text-align: center;
+}
+.contentOfSection1{
+    height: 50.7rem;
+}
+.section1pgf{
+    width: 90%;
+}
+.vacanciesContainer{
+    width: 80%;
+}
+.vacancies{
+    margin-top: -0.5rem;
+    width: auto;
+}
+.penultContent{
+    height: auto;
+}
+.footerContent{
+  padding: 5%;
+  margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
+} 
+
+}
