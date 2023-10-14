@@ -5,3 +5,4 @@
 OptimusTech é uma página institucional que criei do zero usando HTML, CSS e JavaScript. O site se concentra em apresentar a empresa e seus diferenciais, fornecendo estatísticas de projetos concluídos, colaboradores e downloads. Além disso, oferece informações sobre vagas de emprego e depoimentos de colaboradores. O design é responsivo, garantindo uma ótima experiência de usuário em dispositivos móveis.
 
 
+[![Licença MIT](https://img.shields.io/badge/license-MIT-blue)](https://github.com/SantFabio/Recruitment-Website/blob/main/LICENSE) Este projeto está licenciado. Consulte o arquivo [LICENSE](https://github.com/SantFabio/Recruitment-Website/blob/main/LICENSE) para obter mais detalhes.
