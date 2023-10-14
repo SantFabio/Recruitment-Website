@@ -9,3 +9,7 @@ OptimusTech é uma página institucional que criei do zero usando HTML, CSS e Ja
 
 
 [![Licença MIT](https://img.shields.io/badge/license-MIT-blue)](https://github.com/SantFabio/Recruitment-Website/blob/main/LICENSE) Este projeto está licenciado. Consulte o arquivo [LICENSE](https://github.com/SantFabio/Recruitment-Website/blob/main/LICENSE) para obter mais detalhes.
+<hr>
+autor
+![Luiz Fábio Santana](https://github.com/SantFabio/Recruitment-Website/assets/118360185/7be0d3da-d55e-4eba-9b51-dca7a85f2f64)
+
