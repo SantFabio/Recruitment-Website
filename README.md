@@ -3,6 +3,7 @@
 ![Logo OptimusTech](https://github.com/SantFabio/Recruitment-Website/assets/118360185/ba1ec85e-7c55-47e8-ac7a-3f8c2df857bf) OptimusTech <br>
 <br>
 OptimusTech é uma página institucional que criei do zero usando HTML, CSS e JavaScript. O site se concentra em apresentar a empresa e seus diferenciais, fornecendo estatísticas de projetos concluídos, colaboradores e downloads. Além disso, oferece informações sobre vagas de emprego e depoimentos de colaboradores. O design é responsivo, garantindo uma ótima experiência de usuário em dispositivos móveis.
+<br>
 ![gif](https://github.com/SantFabio/Recruitment-Website/assets/118360185/9167d43b-821c-4184-8267-898b60970317)
 
 ![gif 2](https://github.com/SantFabio/Recruitment-Website/assets/118360185/e5e0a095-889d-41dc-b30b-4cce6417cc71)
@@ -13,5 +14,5 @@ OptimusTech é uma página institucional que criei do zero usando HTML, CSS e Ja
 autor:
 <br>
 <br>
+<img src="https://github.com/SantFabio/Recruitment-Website/assets/118360185/3c61be56-0448-444b-883f-b5ca49b4313b" alt="Luiz Fábio Santana" width="200" height="150">
 
-![Luiz Fábio Santana](https://github.com/SantFabio/Recruitment-Website/assets/118360185/3c61be56-0448-444b-883f-b5ca49b4313b)
