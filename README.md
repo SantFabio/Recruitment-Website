@@ -14,5 +14,5 @@ OptimusTech é uma página institucional que criei do zero usando HTML, CSS e Ja
 autor:
 <br>
 <br>
-<img src="https://github.com/SantFabio/Recruitment-Website/assets/118360185/3c61be56-0448-444b-883f-b5ca49b4313b" alt="Luiz Fábio Santana" width="200" height="150">
+<img src="https://github.com/SantFabio/Recruitment-Website/assets/118360185/3c61be56-0448-444b-883f-b5ca49b4313b" alt="Luiz Fábio Santana" height="150">
 
